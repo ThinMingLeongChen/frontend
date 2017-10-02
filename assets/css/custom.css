@@ -1,0 +1,149 @@
+.navbar {
+    background: linear-gradient(90deg, #364147 50%, #2a3138 50%);
+}
+@media (max-width: 767px) {
+    .navbar {
+        background: linear-gradient(180deg, #364147 53%, #2a3138 50%);
+    }
+}
+.search,
+.search:focus {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 0;
+    outline: none;
+    margin: 0;
+    color: #fff;
+}
+.main {
+    background-color: #e2e4e1;
+    padding: 4rem 2.5rem;
+    min-height: 46rem;
+}
+.clear-fix::after,
+.clear-fix::before {
+    display: table;
+    content: " ";
+}
+
+.clear-fix,
+.clear-fix::after {
+    clear: both;
+}
+.add {
+    font-size: 2rem;
+    line-height: 0;
+}
+.color {
+    color: #354046;
+    outline: none;
+}
+.color:hover {
+    color: #189c6c;
+}
+.cars {
+    background-color: #ffffff;
+    padding: 0.7rem;
+    margin-bottom: 0.7rem;
+    position: relative;
+}
+.cars > p {
+    margin: 0;
+    line-height: 1.2;
+    font-weight: 500;
+}
+.more-info {
+    background-color: #f1f2f0;
+    padding: 0.7rem;
+}
+.more-info > .row > .col {
+    margin: 1.3rem 0;
+}
+.more-info > .row > .col > h6 {
+    line-height: 0.8;
+}
+.btn-grey {
+    background-color: #45535a;
+    color: #fff;
+    border-radius: 0;
+}
+.btn-grey:focus {
+    box-shadow: none;
+}
+.btn-grey:hover {
+    background-color: rgba(69, 83, 90, 0.89);
+}
+.edit {
+    background-color: #f1f2f0;
+    padding: 0.7rem;
+    border-top: 0.09rem solid #babbb9;
+}
+.cars > a > i {
+    font-size: 1.5rem;
+    position: absolute;
+    top: calc(50% - 0.75rem);
+    right: 1.5rem;
+}
+.cars > a.sold > i {
+    color: #189c6c;
+}
+.edit > i {
+    font-size: 1.5rem;
+}
+.center-y {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.description {
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+}
+.modal-content {
+    border-radius: 0;
+    background-color: #e2e4e1;
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        margin: 90px auto;
+    }
+}
+
+
+.mdl-textfield__label:after {
+    bottom: 13px;
+}
+.width-full {
+    width: 100%;
+}
+.mdl-textfield__label {
+    color: #818181;
+}
+.mdl-textfield__input {
+    border-bottom: 1px solid #818181;
+}
+.active {
+    background-color: #f1f2f0;
+}
+.fields {
+    padding: 0 30px;
+}
+.control {
+    padding: 15px;
+}
+.green {
+    color: #5a947d;
+}
+.grey {
+    color: #8f9597;
+}
+.navbar-brand {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    color: #dadddb !important;
+    float: left;
+}
